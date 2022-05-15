@@ -1,8 +1,24 @@
-# Foodles
+# Foodles: technical test
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/foodles`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Problem solved in this repo
 
-TODO: Delete this and the text above, and describe your gem
+1) Write a function that takes as input (sentence: String, n: Number) 
+and returns a list of size `n` where each element contains a word and and the frequency of that word in `sentence`
+This list should be sorted by decreasing frequency and alphabetical order in case of tie.
+
+Example: 
+Input: ("baz bar foo foo zblah zblah zblah baz toto bar", 3)
+Output: 
+[
+   ("zblah", 3),
+   ("bar", 2),
+   ("baz", 2),
+]
+
+2) Write tests for the function you just wrote
+
+You are free to chose the programming language that you are the most comfortable with.
+
 
 ## Installation
 
